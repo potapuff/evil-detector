@@ -1,0 +1,24 @@
+{
+  "name": "axe-table-rule",
+  "version": "1.0.0",
+  "description": "Custom axe-core rule for accessibility-cloaking checking",
+  "type": "module",
+  "bin": {
+    "check-tables": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel lib -d dist"
+  },
+  "dependencies": {
+    "axe-core": "^4.7.0",
+    "puppeteer": "^22.2.0",
+    "rollup": "^4.29.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0"
+  }
+}

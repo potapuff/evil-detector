@@ -1,0 +1,18 @@
+{
+    "id": "evil-a-keyboard-only",
+    "selector": "a[onclick], button[onclick], input[onclick], [role=\"button\"][onclick]",
+    "excludeHidden": false,
+    "impact": "serious",
+    "any": ["evil-a-keyboard-only-check"],
+    "all": [],
+    "tags": [
+      "cat.keyboard",
+      "security",
+      "evil"
+    ],
+    "metadata": {
+      "description": "Ensures elements are not hidden from mouse users while remaining keyboard accessible",
+      "help": "Interactive elements should not be hidden from mouse users while being keyboard accessible",
+      "helpUrl": "https://web-accesibility.sumdu.edu.ua/evil/test#technique-a"
+    }
+  }

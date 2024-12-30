@@ -1,0 +1,11 @@
+{
+  "id": "evil-b-hidden-field-check",
+  "evaluate": "function (a,b){console.log(JSON.stringify(Object.keys(window))) ;return window.evilBHiddenFieldCheck.hiddenFieldEvaluate(a,b); }",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Form field is properly visible and accessible",
+      "fail": "Form field is hidden from visual users but accessible to screen readers"
+    }
+  }
+} 

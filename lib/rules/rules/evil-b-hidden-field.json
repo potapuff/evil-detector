@@ -1,0 +1,17 @@
+{
+  "id": "evil-b-hidden-field",
+  "selector": "input[type], [role='textbox'], [contenteditable='true']",
+  "excludeHidden": false,
+  "none": ["evil-b-hidden-field-check"],
+  "impact": "serious",
+  "tags": [
+    "cat.forms",
+    "security",
+    "evil"
+  ],
+  "metadata": {
+    "description": "Ensures form fields are not hidden from visual users while being accessible to screen readers",
+    "help": "Form fields should not be hidden from visual users while remaining accessible to assistive technologies",
+    "helpUrl": "https://web-accesibility.sumdu.edu.ua/evil/test#technique-b"
+  }
+} 

@@ -1,0 +1,11 @@
+{
+  "id": "evil-a-keyboard-only-check",
+  "evaluate": "function(a,b) { console.log(JSON.stringify(Object.keys(window))) ;return window.evilAKeyboardOnlyCheck.keyboardOnlyEvaluate(a,b); }",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Element is properly visible and accessible",
+      "fail": "Element is hidden from mouse users but keyboard accessible"
+    }
+  }
+}
