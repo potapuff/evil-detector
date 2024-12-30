@@ -1,0 +1,14 @@
+{
+  "id": "evil-c-hidden-describedby",
+  "selector": "[aria-describedby]",
+  "excludeHidden": false,
+  "tags": [
+    "security",
+    "evil"
+  ],
+  "any": ["evil-c-hidden-describedby-check"],
+  "metadata": {
+    "description": "Ensures aria-describedby references are not used to hide malicious content",
+    "help": "Hidden aria-describedby content should not contain suspicious or malicious content"
+  }
+} 

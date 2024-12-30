@@ -1,0 +1,11 @@
+{
+  "id": "evil-c-hidden-describedby-check",
+  "evaluate": "hiddenAriaDescribedByEvaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Referenced description is properly visible",
+      "fail": "Hidden aria-describedby content detected which may contain malicious content"
+    }
+  }
+} 

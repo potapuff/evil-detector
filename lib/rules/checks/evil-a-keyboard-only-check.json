@@ -1,6 +1,6 @@
 {
   "id": "evil-a-keyboard-only-check",
-  "evaluate": "function(a,b) { console.log(JSON.stringify(Object.keys(window))) ;return window.evilAKeyboardOnlyCheck.keyboardOnlyEvaluate(a,b); }",
+  "evaluate": "keyboardOnlyEvaluate",
   "metadata": {
     "impact": "serious",
     "messages": {

@@ -1,0 +1,14 @@
+{
+  "id": "evil-d-offscreen",
+  "selector": "*",
+  "excludeHidden": false,
+  "tags": [
+    "security",
+    "evil"
+  ],
+  "any": ["evil-d-offscreen-check"],
+  "metadata": {
+    "description": "Detects interactive elements positioned far outside viewport",
+    "help": "Interactive elements should not be positioned far outside the viewport"
+  }
+} 

@@ -1,0 +1,11 @@
+{
+  "id": "evil-e-aria-label-mismatch-check",
+  "evaluate": "ariaLabelMismatchEvaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Visible text and aria-label have similar content",
+      "fail": "Significant mismatch between visible text and aria-label content"
+    }
+  }
+} 

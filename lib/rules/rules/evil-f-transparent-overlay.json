@@ -1,0 +1,14 @@
+{
+  "id": "evil-f-transparent-overlay",
+  "selector": "*",
+  "tags": [
+    "security",
+    "evil"
+  ],
+  "excludeHidden": false,
+  "any": ["evil-f-transparent-overlay-check"],
+  "metadata": {
+    "description": "Detects transparent interactive overlays",
+    "help": "Interactive elements should not be made transparent to hide malicious content"
+  }
+} 

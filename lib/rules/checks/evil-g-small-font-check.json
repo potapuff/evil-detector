@@ -1,0 +1,11 @@
+{
+  "id": "evil-g-small-font-check",
+  "evaluate": "smallFontSizeEvaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Font size is readable",
+      "fail": "Text content uses extremely small font size which may hide content"
+    }
+  }
+} 

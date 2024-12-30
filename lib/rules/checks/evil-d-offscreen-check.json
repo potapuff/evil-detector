@@ -1,0 +1,11 @@
+{
+  "id": "evil-d-offscreen-check",
+  "evaluate": "offscreenElementEvaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Element is positioned within reasonable bounds",
+      "fail": "Interactive element is positioned far outside viewport"
+    }
+  }
+} 

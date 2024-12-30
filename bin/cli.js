@@ -18,6 +18,9 @@ program
 
 const options = program.opts();
 
+options.url = 'https://sumdu.edu.ua/uk';
+options.verbose = true;
+
 if (!options.url && !options.file) {
     console.error('Please provide either a URL or a file with URLs');
     process.exit(1);

@@ -1,0 +1,14 @@
+{
+  "id": "evil-g-small-font",
+  "selector": "*",
+  "tags": [
+    "security",
+    "evil"
+  ],
+  "excludeHidden": false,
+  "any": ["evil-g-small-font-check"],
+  "metadata": {
+    "description": "Detects text with extremely small font sizes",
+    "help": "Text content should not use extremely small fonts to hide content"
+  }
+} 

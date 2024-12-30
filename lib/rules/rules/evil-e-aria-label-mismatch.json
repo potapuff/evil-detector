@@ -1,0 +1,14 @@
+{
+  "id": "evil-e-aria-label-mismatch",
+  "selector": "[aria-label]",
+  "excludeHidden": false,
+  "tags": [
+    "security",
+    "evil"
+  ],
+  "any": ["evil-e-aria-label-mismatch-check"],
+  "metadata": {
+    "description": "Detects significant mismatches between visible text and aria-label content",
+    "help": "Visible text and aria-label content should convey similar meaning"
+  }
+} 

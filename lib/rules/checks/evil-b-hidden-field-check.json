@@ -1,6 +1,6 @@
 {
   "id": "evil-b-hidden-field-check",
-  "evaluate": "function (a,b){console.log(JSON.stringify(Object.keys(window))) ;return window.evilBHiddenFieldCheck.hiddenFieldEvaluate(a,b); }",
+  "evaluate": "hiddenFieldEvaluate",
   "metadata": {
     "impact": "serious",
     "messages": {

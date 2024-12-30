@@ -1,0 +1,11 @@
+{
+  "id": "evil-f-transparent-overlay-check",
+  "evaluate": "transparentOverlayEvaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Element opacity is appropriate for its interaction status",
+      "fail": "Transparent interactive overlay detected"
+    }
+  }
+} 
