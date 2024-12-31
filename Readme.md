@@ -1,4 +1,4 @@
-# EVIL (Enhanced Verification and Improvement for accessibiLity) Detector
+# EVIL (**E**nhanced **V**erification and **I**mprovement for accessibi**L**ity) Detector
 
 A security tool for detecting potentially malicious accessibility implementations that could be used to create hidden content or functionality accessible only to specific user groups.
 
@@ -83,40 +83,18 @@ Identifies text with extremely small font sizes used to hide content.
 ## Installation
 
 ```bash
-npm install evil-detector
+git clone https://github.com/potapuff/evil-detector.git
+npm install 
 ```
 
 ## Usage
 
 ### Command Line Interface
 ```bash
-# Analyze a single file
-evil-detector analyze path/to/file.html
-
-# Run specific rule
-evil-detector analyze --rule evil-c-hidden-describedby path/to/file.html
-
-# Output format options
-evil-detector analyze --format json path/to/file.html
-evil-detector analyze --format html path/to/file.html
+# Analyze a site
+node bin/cli.js -u https://example.com/ -v
 ```
 
-### Programmatic Usage
-```javascript
-const { analyze, runRule } = require('evil-detector');
-
-// Run all checks
-const results = await analyze('path/to/file.html');
-
-// Run specific rule
-const ruleResults = await runRule('evil-a-keyboard-only', 'path/to/file.html');
-```
-
-## Configuration
-
-Rules can be configured through JSON files:
-- `lib/rules/rules/` - Rule definitions
-- `lib/rules/checks/` - Check implementations
 
 ## Contributing
 
