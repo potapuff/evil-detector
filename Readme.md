@@ -108,18 +108,14 @@ node bin/cli.js -u https://example.com/ -v
 
 MIT License - see LICENSE file for details.
 
-## Security
-
-For security issues, please email security@example.com instead of using the issue tracker.
-
 ## Citation
 
 If you use this tool in your research, please cite:
 ```
 @article{evil2025,
-  title={},
+  title={Detection and Prevention of Accessibility Cloaking Attacks},
   author={Kuzikov Borys, Shovkoplias Oksana, Tytov Pavlo, Lavryk Tetiana, Koval Vitlyi},
-  journal={Detection and Prevention of Accessibility Cloaking Attacks},
+  journal={...waiting for publication...},
   year={2025}
 }
 ```
